@@ -1,9 +1,0 @@
-ros-rolling-menge-vendor (1.0.0-2jammy) jammy; urgency=high
-
-  * fix find_package problem when installed (#1 <https://github.com/osrf/menge_core/issues/1>)
-  * menge core
-  * Contributors: Marco A. Gutiérrez, Shao Guoliang, flooshao
-
- -- Shao Guoliang <fredshao@openrobotics.org>  Wed, 06 Jan 2021 08:00:00 -0000
-
-
