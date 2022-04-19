@@ -1,0 +1,13 @@
+Source: ros-humble-menge-vendor
+Section: misc
+Priority: optional
+Maintainer: Shao Guoliang <fredshao@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), libtinyxml-dev, pkg-config, ros-humble-ament-cmake, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-menge-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libtinyxml-dev, ros-humble-ros-workspace
+Description: Menge is a powerful, cross-platform, modular framework for crowd simulation developed at the University of North Carolina - Chapel Hill.
+ This package includes the core simulation part of origin menge package, with a bit modification for crowd simulation in gazebo and ignition gazebo.
